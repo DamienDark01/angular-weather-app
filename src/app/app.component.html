@@ -3,6 +3,11 @@
   <div class="upperData">
     <img src="" *ngIf="14 > 15">
     <img src="" *ngIf="14 <= 15">
+
+    <div class="weatherData">
+      <div class="location">Colombo</div>
+      <div class="temperature">{{ 27.89 | number: '1.0-0' }}</div>
+    </div>
   </div>
 
   <div class="lowerData">
