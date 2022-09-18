@@ -75,3 +75,50 @@ body {
   text-align: center;
   font-weight: 800;
 }
+
+.moreInfoLabel {
+  color: var(--white);
+}
+
+.moreInfoContainer {
+  flex: 1;
+  background-color: var(--shadow-light);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-top: 1em;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.infoBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.infoBlockLabel {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoBlockLabel img {
+  width: 1em;
+}
+
+.infoBlockLabel span {
+  color: var(--white);
+  font-size: 0.8em;
+}
+
+.infoBlockValue {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--white);
+}
