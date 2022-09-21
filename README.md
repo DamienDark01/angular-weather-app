@@ -5,5 +5,5 @@
 - Creator : DamienDark01
 - Based on YouTube Tutorials.
 
-- Being developed.
+- Under development.
 - Small steps each day! :)
