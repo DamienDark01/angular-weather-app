@@ -28,3 +28,17 @@ export interface Weather {
   icon: string;
 }
 
+export interface Main {
+  temp: number
+  feelslike: number
+  temp_min: number
+  temp_max: number
+  pressure: number
+  humidity: number
+}
+
+export interface Wind {
+  speed: number
+  deg: number
+  gust: number
+}
