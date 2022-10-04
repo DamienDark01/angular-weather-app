@@ -15,3 +15,9 @@ export interface Root {
   name: string
   cod: number
 }
+
+export interface Coord {
+  lon: number;
+  last: number;
+}
+
