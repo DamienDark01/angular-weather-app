@@ -1,5 +1,3 @@
-import { MockAnimationDriver } from "@angular/animations/browser/testing"
-
 export interface Root {
   coord: Coord
   weather: Weather[]
