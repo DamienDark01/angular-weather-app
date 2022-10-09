@@ -1,5 +1,6 @@
 import { Component, VERSION } from '@angular/core';
-import { WeatherData } from './model'
+import { WeatherData } from './models/weather.model';
+import { WeatherService } from './services/weather.service';
 
 @Component({
   selector: 'my-app',
