@@ -15,3 +15,9 @@ declare const require: {
     keys(): string[];
   };
 };
+
+getTestBed().initTestEnvironment(
+  BrowserDynamicTestingModule,
+  platformBrowserDynamicTesting(),
+);
+
